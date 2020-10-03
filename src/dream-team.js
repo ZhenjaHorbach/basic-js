@@ -5,7 +5,6 @@ module.exports = function createDreamTeam(team) {
 		return false;
 	}
 	let result = '';
-	let word = '';
 	for (let i = 0; i < team.length; i++) {
 		if (typeof (team[i]) == 'string') {
 			result += team[i].toUpperCase().trim()[0];
